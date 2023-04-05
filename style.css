@@ -1,0 +1,53 @@
+.headerbg {
+  background-color: lavenderblush;
+}
+
+.logo {
+  width: 65px;
+  height: 65px;
+}
+img,
+svg {
+  vertical-align: middle;
+}
+*,
+:after,
+:before {
+  box-sizing: border-box;
+}
+img {
+  overflow-clip-margin: content-box;
+  overflow: clip;
+}
+
+.navbar-toggler-icon {
+  background-image: var(--bs-navbar-toggler-icon-bg);
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  display: inline-block;
+  height: 1.5em;
+  vertical-align: middle;
+  width: 1.5em;
+}
+*,
+:after,
+:before {
+  box-sizing: border-box;
+}
+
+.navlinktext {
+  font-weight: 500;
+  font-size: 20px;
+  margin: 10px;
+  color: black;
+  float: right;
+}
+
+.navlinktext:hover {
+  color: rgb(239, 46, 42);
+}
+
+.marginalign {
+  margin-left: auto;
+}
